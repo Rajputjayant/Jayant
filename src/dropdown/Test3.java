@@ -23,9 +23,9 @@ public class Test3 {
 			Thread.sleep(3000);
 		    s.selectByIndex(4);
 		    Thread.sleep(3000);
-		    s.selectByValue("search-alias=todays-deals");
+		    s.selectByValue("search-alias=computers-intl-ship");
 		    Thread.sleep(3000);
-		    s.selectByVisibleText("Furniture");
+		    s.selectByVisibleText("Video Games");
 		    
 		    List<WebElement> alloption = s.getOptions();
 		    System.out.println(alloption.size());
@@ -34,6 +34,7 @@ public class Test3 {
 		    	System.out.println(b.getText());
 				
 			}
+		    driver.close();
 		     
 
 	}

@@ -21,9 +21,9 @@ public class Test0 {
 		driver.manage().window().maximize();
 		driver.get(p.getProperty("url"));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
 		driver.findElement(By.id("email")).sendKeys(p.getProperty("username"));
 		driver.findElement(By.id("pass")).sendKeys(p.getProperty("password"));
+		
 	}
 
 }

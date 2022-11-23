@@ -13,7 +13,7 @@ public class Test0 {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com/");
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+//		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
 //		WebElement ele = driver.findElement(By.name("q"));
 		

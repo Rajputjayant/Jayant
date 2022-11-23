@@ -1,6 +1,9 @@
 package dropdown;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -31,13 +34,15 @@ public class Test0 {
 		List<WebElement> alloptions = s.getOptions();
 		System.out.println(alloptions.size());
 		
-		for (WebElement b : alloptions) {
-			
+		for (WebElement b : alloptions) 
+		{	
 			System.out.println(b.getText());
 			
-		}
+		}	
+		
+		
 		driver.close();
-
-	}
+       
+	}	    
 }
 

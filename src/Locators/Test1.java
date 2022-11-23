@@ -14,6 +14,7 @@ public class Test1 {
 		driver.findElement(By.name("pwd")).sendKeys("manager");
 		driver.findElement(By.id("loginButton")).click();
 		
+		
 	}
 
 }

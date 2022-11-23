@@ -1,14 +1,15 @@
 package PopUp;
 
 import java.time.Duration;
-
+import java.awt.AWTException;
+import java.awt.Robot;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Test1 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws AWTException {
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -20,6 +21,7 @@ public class Test1 {
 		driver.findElement(By.xpath("//div[text()='Login ']")).click();
 		driver.findElement(By.xpath("//button[@type=\"button\"]")).click();
 		driver.findElement(By.xpath("(//span[text()='28'])[2]")).click();
+		
 
 	}
 

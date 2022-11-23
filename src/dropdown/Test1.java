@@ -32,7 +32,7 @@ public class Test1 {
 		Thread.sleep(3000);
 		s.deselectByValue("299");
 		Thread.sleep(3000);
-		s.deselectByVisibleText("More Than INR 500 ( 55 ) ");
+//		s.deselectByVisibleText("More Than INR 500 ( 55 ) ");// method not working
 		
 
 	}
